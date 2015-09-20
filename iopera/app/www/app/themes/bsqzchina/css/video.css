@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+video {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  background-color: #fff;
+  background: rgba(255, 255, 255, .6);
+  border-radius: 10px;
+}
+
+h4 {
+  margin-bottom: 24px;
+  color: rgb(39, 39, 39);
+  text-align: center;
+}
+
+p {
+  margin-bottom: 24px;
+  color: rgb(89, 89, 89);
+}
+
+a {
+  display: inline-block;
+  margin: 0;
+  color: rgb(255, 60, 100);
+  text-decoration: none;
+  /* padding: 12px 48px; */
+  /* border: solid 4px rgb(255,60,100); */
+}
+
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.skip-button {
+  padding: 0px 2rem;border: 2px solid;margin: 1.5rem;text-align: center;float: right;
+}
